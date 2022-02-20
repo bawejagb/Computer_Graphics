@@ -12,3 +12,6 @@ This is the repo of Computer Graphics Algorithms implemented in **C++** using **
 ### Content
 ---
 * **Basic Shapes**
+* **Line Algorithms**
+
+
