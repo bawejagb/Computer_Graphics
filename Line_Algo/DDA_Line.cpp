@@ -44,9 +44,9 @@ void DDA(int x0, int y0, int x1, int y1){
     for(int i=0;i <= step; i++){
         glBegin(GL_POINTS);
         glColor3f(0.0, 1.0, 0.0);
-        glVertex2f(X, Y);
+        glVertex2f(round(X),round(Y));
         glEnd();
-        //cout << X << ' ' << Y << endl;
+        cout << round(X) << ' ' << round(Y) << endl;
         X+=Xinc;
         Y+=Yinc;
     }
