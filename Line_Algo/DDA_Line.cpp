@@ -5,6 +5,7 @@ Made By : Gaurav Baweja
 */
 #include <GLUT/glut.h>
 #include <iostream>
+#include<cmath>
 using namespace std;
 
 void init();
@@ -57,8 +58,10 @@ void display() {
     glLoadIdentity();
     //draw DDA Line
     int x0,x1,y0,y1;
-    x0 = y0 = 10;
-    x1 = y1 = 50;
+    x0 = 10;
+    y0 = 5;
+    x1 = 50;
+    y1 = 80;
     DDA(x0,y0,x1,y1);
 
     glFlush();
